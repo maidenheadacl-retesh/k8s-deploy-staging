@@ -43,9 +43,7 @@ pipeline {
         }
       }
     }
-    // DO NOT uncomment until 06_04 Lab
-    /*
-    stage('DT Deploy Event') {
+        stage('DT Deploy Event') {
       steps {
         container("curl") {
           script {
@@ -61,8 +59,7 @@ pipeline {
         }
       }
     }
-    */
-    
+        
     // DO NOT uncomment until 10_01 Lab
     /*
     stage('Staging Warm Up') {
